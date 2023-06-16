@@ -1,0 +1,50 @@
+button{
+    color: rgb(33, 196, 19);
+}
+button:hover{
+    color: red;
+}
+
+h3::before{
+    content: "hello";
+    color: salmon;
+    background-color: wheat;
+    border: 1px solid hotpink;
+    font-size: xx-small;
+}
+input:focus{
+    font-size: larger;
+    color: yellow;
+
+}
+
+input{
+    color: antiquewhite;
+}
+li:first-child{
+color: rgb(245, 20, 20);
+}
+*{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: dashed;
+    font-size: 20px;
+    color: white;
+}
+a{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: brown;
+    font-size: larger;
+}
+
+ol{
+    position: static;
+}
+li::before {
+        content: "❤️";
+        color: blue;
+}
