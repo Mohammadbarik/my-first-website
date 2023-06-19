@@ -1,101 +1,109 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
-}
-h1{
+    }
+    
+    h1{
     font-size: 50px;
-}
-
-.name-highlight{
+    }
+    
+    .name-highlight{
     color: orange;
-}
-.first-half{
+    }
+    
+    .first-half{
     width: 40%;
     float: left;
     padding-left: 2%;
-    padding-left: 5%;
-}
-
-.first-half img{
+    padding-right: 5%;
+    }
+    
+    .first-half img{
     width: 96%;
     height: 90%;
-}
-.first-part{
+    }
+    
+    .first-part{
     background-image: url("images/top-banner.png");
-    background-repeat: no-repeat
-}
-section{
+    background-repeat: no-repeat;
+    }
+    
+    section{
     height: 500px;
-}
-.first-half a{
+    }
+    
+    .first-half a{
     text-decoration: none;
-    background-image: linear-gradient( 45deg, salmon,pink);
+    background-image: linear-gradient(45deg, salmon, pink);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-}
-.m-half{
+    }
+    
+    .m-half{
     width: 40%;
     float: left;
     padding-left: 2%;
-    padding-left: 5%;
-    background-image: url(images/dream-bg.pngs);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.m-half img{
-    width: 90%;
-
-}
-
-.m-half a{
-    text-decoration: none;
-    background-image: linear-gradient( 45deg, salmon,pink);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: 700;
-    color: white;
-}
-.middle{
+    padding-right: 5%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-}
-
-.l-half{
+    }
+    
+    .m-half img{
+    width: 90%;
+    }
+    
+    .m-half a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon, pink);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    }
+    
+    .middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-repeat: no-repeat;
+    }
+    
+    .l-half{
     width: 38%;
     float: left;
     padding-left: 4%;
     margin: 3%;
     
-}
-
-.l-half h2{
-    font-weight: 800;
-}
-.ok{
+    }
+    
+    .l-half h2{
+    }
+    
+    .ok{
     box-shadow: 10px 10px 40px grey;
     height: 50%;
-   
-}
-.last{
+    
+    }
+    
+    .last{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-color: white;
     
-}
-#bd2{
+    }
+    
+    #bd2{
     border-left: 7px solid;
-    border-image: linear-gradient( 180deg, orange, tomato, yellow, pink,blue,red,white,cyan);
+    border-image: linear-gradient(180deg, orange, tomato, yellow, pink, blue, red, white, cyan);
     border-image-slice: 1;
     background-color: white;
-}
-
-#bd1{
+    }
+    
+    #bd1{
     border-left: 7px solid;
-    border-image: linear-gradient( 180deg, blue, cyan,tomato, yellow, pink);
+    border-image: linear-gradient(180deg, blue, cyan, tomato, yellow, pink);
     border-image-slice: 1;
-}
-
+    }
